@@ -303,3 +303,87 @@ input[type=submit]:hover{
     border: none;
     border-bottom: 2px solid #e0e0e0;;
 }
+
+#submitted{
+    display: none;
+}
+
+.about-intro{
+    width: 85%;
+    margin: auto;
+    color: #36cdd6;
+}
+
+.about-header{
+    margin-top: 200px;
+    font-weight: 100;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    
+}
+
+.about-headshot{
+    width: 70%;
+    padding-bottom: 70%;
+    margin: auto;
+    margin-top: 58px;
+    margin-bottom: 130px;
+}
+
+.about-des{
+    margin-top: 20px;
+    font-size: 17px;
+    line-height: 28.8px;
+    color: #444444;
+}
+
+.about-whatido{
+    color: #36cdd6;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-top: 33px;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+.about-what{
+    margin-top: 1px;
+    font-size: 17px;
+    line-height: 28.8px;
+    color: #444444;
+}
+
+.about-next{
+    height: 330px;
+    margin-top: 50px;
+    background-color: #e2e2e2;
+    text-align: center;
+    color: #444444;
+}
+
+.about-ready{
+    font-size: 25px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding-top: 97px;
+    padding-bottom: 63px;
+}
+
+.about-ready:hover{
+    color: #89dcd9;
+}
+
+.about-chat{
+    border: 4px solid #fff;
+    padding: 20px 20px;
+    margin-top: 200px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #fff;
+}
+
+.about-chat:hover{
+    color: #e2e2e2;
+    background-color: #fff;
+}

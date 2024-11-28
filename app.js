@@ -21,11 +21,15 @@ app.set("view engine", ".hbs");
 
 app.get('/', function(req,res){
     res.render("home");
-})
+});
 
 app.get("/contact", function(req,res){
     res.render("contact", {submitted: "no"});
-})
+});
+
+app.get("/about", function(req,res){
+    res.render("about")
+});
 
 let transporter = nodeMailer.createTransport({
     service: 'gmail',
